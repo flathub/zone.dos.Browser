@@ -47,16 +47,16 @@ modules:
       #   path: ..
       - type: git
         url: https://github.com/js-dos/dos.zone.browser.pc
-        commit: 6bc0a67a7d84e229de7ba18b280a42f3c0f8b886
+        commit: 57e0b3c4d0d939693cb7215f40307b0dc12f62c8
       - type: file
         url: https://v8.js-dos.com/flatpak/node-gyp.zip
         sha256: 8905e15b377f3e26e1515d48f1b316b7deca004654c2e52239d599799cb4976f
       - type: file
-        url: https://v8.js-dos.com/flatpak/v8.0.6/doszone-backend
-        sha256: 1bb167ea49c31738092e69dbfe94c2a78c0b0700de1ec9edf5354f56d586d8bb
+        url: https://v8.js-dos.com/flatpak/v8.0.7/doszone-backend
+        sha256: 811e6de780e3826c05cf1af4db63bf0d100a2c83e30d8369d0cbd086b5c7380b
       - type: file
-        url: https://v8.js-dos.com/flatpak/v8.0.6/doszone-backend-x
-        sha256: d609407a2e95e3e03c2fe908fe495201be798ecc5d6b3d780b69f80dee56b6ad
+        url: https://v8.js-dos.com/flatpak/v8.0.7/doszone-backend-x
+        sha256: 8de60007a6dff04d99313bb402ecf42e0e8e89075e56e54857d0c50776184600
       - generated-sources.json
       - type: script
         dest-filename: run.sh
